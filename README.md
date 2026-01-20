@@ -73,6 +73,20 @@ Spectral attention improves performance by focusing more on important spectral b
 
 ✅ **PSNR improved by +10.82 dB**  
 ✅ Strong structural similarity improvement
+Running final full-cube inference on test split...
+Final full-cube inference time: 35.33 s
+
+--- TEST RESULTS (Spectral-Attention 3D U-Net) ---
+NOISY  PSNR : 28.38 dB
+NOISY  SSIM : 0.7263
+DENOISED PSNR : 39.20 dB
+DENOISED SSIM : 0.9671
+Detected regions: noisy=45, denoised=62, clean=63
+
+Baseline noisy PSNR = 28.38 dB, SSIM = 0.7263
+Final denoised PSNR  = 39.20 dB, SSIM = 0.9671
+Total buildings (center band): noisy=45, denoised=62, clean=63
+
 
 ---
 
@@ -92,7 +106,7 @@ Spectral attention improves performance by focusing more on important spectral b
 ## 🖼️ Output Result
 
 ### Noisy vs Denoised Comparison
-![Result](result/result.png)
+![Result](results/result.png)
 
 ---
 
@@ -107,3 +121,4 @@ Install dependencies:
 
 ```bash
 pip install numpy matplotlib pandas torch torchvision scikit-image opencv-python
+
