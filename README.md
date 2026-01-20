@@ -79,13 +79,13 @@ Spectral attention improves performance by focusing more on important spectral b
 ## 📉 Training and Validation Graphs
 
 ### 🔻 Training Loss Curve
-![Training Loss](result/trainingloss.png)
+![Training Loss](results/trainingloss.png)
 
 ### 📈 Validation PSNR Curve
-![Validation PSNR](result/validationpsnr.png)
+![Validation PSNR](results/validationpsnr.png)
 
 ### 📈 Validation SSIM Curve
-![Validation SSIM](result/validationssim.png)
+![Validation SSIM](results/validationssim.png)
 
 ---
 
